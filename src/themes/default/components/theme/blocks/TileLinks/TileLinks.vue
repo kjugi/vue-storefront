@@ -11,6 +11,7 @@
         <img
           class="tile-image"
           v-lazy="tile.image"
+          :src="tile.image"
           :alt="tile.alt"
         >
       </div>
